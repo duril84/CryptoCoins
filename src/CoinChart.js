@@ -36,7 +36,7 @@ const ButtonGroup = styled.div`
   width: 100%;
 `;
 
-const buttonsNames = [ `1 day`, `7 days`, `14 days`, `30 days` ];
+const buttonsNames = [ `1 day`, `7 days`, `14 days`, `30 days`, `365 days` ];
 
 const ToggleGroup = (props) => {
   const [active, setActive] = useState(buttonsNames[0]);

@@ -24,7 +24,7 @@ const Prices = styled.div`
 const CoinPrice = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 10px;
 `
 const ChartContainer = styled.div`
@@ -53,9 +53,10 @@ const CoinInfoDetails = ({id}) => {
     return (
       <InfoDetails>
         <Prices>
-          <CoinPrice> {details.market_data.current_price.usd.toFixed(4)} $ </CoinPrice>
-          <CoinPrice> {details.market_data.current_price.eur.toFixed(4)} € </CoinPrice>
-          <CoinPrice> {details.market_data.current_price.pln.toFixed(4)} PLN </CoinPrice>
+          <p>Current Price:</p>
+          <CoinPrice> <p> USD: </p> {details.market_data.current_price.usd.toFixed(4)} $ </CoinPrice>
+          <CoinPrice> <p> EUR: </p> {details.market_data.current_price.eur.toFixed(4)} € </CoinPrice>
+          <CoinPrice> <p> PLN: </p> {details.market_data.current_price.pln.toFixed(4)} PLN </CoinPrice>
         </Prices>
         <ChartContainer>
           <CoinChart id={id}/>

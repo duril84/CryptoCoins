@@ -80,9 +80,9 @@ const Coin = ({id, name, price, price_change, image}) => {
         <CoinName> {name} </CoinName>
         <CoinPrice> {price.toFixed(2)} $ </CoinPrice>
         <CoinPriceChange price_change={price_change} > {price_change.toFixed(2)} % </CoinPriceChange>
-        <CoinFavorite>
+        {/* <CoinFavorite>
           <FontAwesomeIcon icon={faStar} />
-        </CoinFavorite>
+        </CoinFavorite> */}
       </CoinInfo>
       {  clicked &&  <CoinInfoDetails id={id}/> }
     </CoinEntry>
