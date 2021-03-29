@@ -2,11 +2,11 @@
 
 Search/Home page:
 
-![alt text](https://github.com/duril84/CryptoCoins/blob/master/screens/app_screen1.png)
+![alt text](https://github.com/duril84/CryptoCoins/blob/master/src/screens/app_screen1.png)
 
 After search page:
 
-![alt text](https://github.com/duril84/CryptoCoins/blob/master/screens/app_screen2.png)
+![alt text](https://github.com/duril84/CryptoCoins/blob/master/src/screens/app_screen2.png)
 
 --------------------------------
 
